@@ -43,8 +43,8 @@ $("#elastic_grid_demo").elastic_grid({
 			'title' : 'Virgin Media Customer Self Care',
 			'description'   : 'Customer Self Care apps and Billing and Payments portal allowing subscribers would be able to access information such as account and billing data via phone calls, ' +
 			'the Web or interactive TV services.',
-			'thumbnail' : ['img/portfolio/small/Virginmedia_logo.png'],
-			'large' : ['img/portfolio/large/Virgin Media Home Page 500x500.jpg'],
+			'thumbnail' : ['img/portfolio/small/Virginmedia_logo.png', 'img/portfolio/small/Virgin_MediaC_Customer_Care_Page_Sm.png',  'img/portfolio/small/Virgin_Media_Bill_Zoom.png'],
+			'large' : ['img/portfolio/large/Virgin_Media_Home_Page_500x500.jpg', 'img/portfolio/large/Virgin_MediaC_Customer_Care_Page.png', 'img/portfolio/large/Virgin_Media_Bill.png'],
 			'button_list'   :
 			[
 			//{ 'title':'Demo', 'url' : 'http://#' },
@@ -52,12 +52,23 @@ $("#elastic_grid_demo").elastic_grid({
 			],
 			'tags'  : ['Development', 'Design', 'Media', 'Analysis']
 			},
-
+			{
+				'title' : 'Vodafone Corporate',
+				'description'   : 'Following aquisition of several telecom providers in the mobile and fixed line telephony space. ' +
+				'Vodafone corporate wanted to consolidate systems and drive convergence towards a single view of the customer. ' +
+				'For this a bottom up Kimball methodology approach was taken to discover dimensional data marts from data warehouse. ' +
+				'As we derived a snowflake schema we refined using Big data tools to provide reporting and analytical capabilities for specific business areas.',
+				'thumbnail' : ['img/portfolio/small/Vodafone_logo.png', 'img/portfolio/large/Vodafone_Dashboard_FINAL_5_Single_Customer_Drill_Down.png', 'img/portfolio/large/Vodafone_Dashboard_FINAL_6_Sales_Region.png' ],
+				'large' : ['img/portfolio/large/Vodafone_Dashboard_FINAL_1_Pipeline with all Customers.png', 'img/portfolio/large/Vodafone_Dashboard_FINAL_5_Single_Customer_Drill_Down.png', 'img/portfolio/large/Vodafone_Dashboard_FINAL_6_Sales_Region.png' ],
+				'button_list'   :
+						[],
+				'tags'  : ['Media', 'Analytics']
+			},
 			{
 			'title' : 'Research, Analysis & Insight Dashboard',
 			'description'   : 'A platform to enabling fund managers to build upon BCA�s deep expertise and experience in data analysis and modelling to quickly identify and support investment ideas. With BCA Analytics users were able to quickly find, build upon and use charts in presentations, rapidly lowering the time this activity used to take.',
-			'thumbnail' : ['img/portfolio/small/euromoney-logo.png'],
-			'large' : ['img/portfolio/large/BCA Homepage 500x500.jpg'],
+			'thumbnail' : ['img/portfolio/small/euromoney-logo.png', 'img/portfolio/small/Euromoney_BCA_Homepage_250x250.jpg' , 'img/portfolio/small/Euromoney_BCA_Ipad.png'],
+			'large' : ['img/portfolio/large/Euromoney_BCA_App.jpg', 'img/portfolio/large/Euromoney_BCA_Homepage_500x500.jpg', 'img/portfolio/large/Euromoney_BCA_Analytics.png'],
 			'button_list'   :
 			[
 			//{ 'title':'Demo', 'url' : 'http://#' },
@@ -69,8 +80,8 @@ $("#elastic_grid_demo").elastic_grid({
 			{
 			'title' : 'Capacity Intelligence Dashboard',
 			'description'   : 'A subscription based platform providing industry executives with the ability to identify new customers, follow partnership announcements and track M&A deal activity.',
-			'thumbnail' : ['img/portfolio/small/Capacityintelligence.jpg'],
-			'large' : ['img/portfolio/large/CapacityIntelligenceHomePage 500x500.jpg'],
+			'thumbnail' : ['img/portfolio/small/Capacityintelligence.jpg', 'img/portfolio/small/CapacityIntelligenceHomePage_250x250.jpg', 'img/portfolio/small/CapacityIntelligence_mobile_tablet.jpg'],
+			'large' : ['img/portfolio/large/CapacityIntelligence_m-and-a.png', 'img/portfolio/large/CapacityIntelligenceHomePage_500x500.jpg', 'img/portfolio/large/CapacityIntelligenceHome.png'],
 			'button_list'   :
 			[
 			//{ 'title':'Demo', 'url' : 'http://#' },
@@ -90,7 +101,7 @@ $("#elastic_grid_demo").elastic_grid({
 			'allowing consumers to click through on those links directly into the desired online content and purchase it directly in whole or in chapters or even smaller \"chunks\" ' +
 			'—and all the content’s multimedia features—video, sound, animation and interactivity—work in the online version. ',
 			'thumbnail' : ['img/portfolio/small/pearson_education.png'],
-			'large' : ['img/portfolio/large/Pearson Habitat 500x500.jpg'],
+			'large' : ['img/portfolio/large/Pearson_Habitat.png'],
 			'button_list'   :
 			[
 			//{ 'title':'Demo', 'url' : 'http://#' },
@@ -131,13 +142,12 @@ $("#elastic_grid_demo").elastic_grid({
 				'application and choose the delivery service through the post-office.' +
 				'They are issued with a new Residence card holds several security features to prevent being tampered ' +
 				'with and cannot be faked as well as it carries data of the card holder.',
-				'thumbnail' : ['img/portfolio/small/qatar-moi-logo.png'],
-				'large' : ['img/portfolio/large/Qatarmoi-rps1.jpg'],
+				'thumbnail' : ['img/portfolio/small/qatar-moi-logo.png', 'img/portfolio/small/Qatarmoi-rps3-card-250.png'],
+				'large' : ['img/portfolio/large/Qatarmoi-rps1.jpg', 'img/portfolio/large/Qatarmoi-rps1-card.jpg'],
 				'button_list'   :
 						[],
 				'tags'  : ['Government', 'Development']
 			},
-	 
 		]
 	});
 });
