@@ -1,4 +1,0 @@
-Subject: test mail to Some Address!
-From: Me <dawud.rahman@empeccableweb.com>
-To: Vasya<info@empeccableweb.com>
-first line of my message
